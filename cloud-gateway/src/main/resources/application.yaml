@@ -12,7 +12,7 @@ spring:
           - id: DEPARTMENT-SERVICE
             uri: lb://DEPARTMENT-SERVICE
             predicates:
-              - Path=/department/**
+              - Path=/departments/**
   config:
     import: configserver:http://localhost:8001
 
