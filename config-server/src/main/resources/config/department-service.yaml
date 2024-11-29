@@ -1,0 +1,14 @@
+spring:
+  datasource:
+    password: secret
+    driver-class-name: org.postgresql.Driver
+    username: umaxcode
+    url: jdbc:postgresql://localhost:5455/post_db
+  jpa:
+    hibernate:
+      ddl-auto: update
+    show-sql: true
+    database-platform: org.hibernate.dialect.PostgreSQLDialect
+
+
+
