@@ -1,6 +1,5 @@
-package com.umaxcode.user_service.VO;
+package com.umaxcode.user_service.dto;
 
-import com.fasterxml.jackson.annotation.JsonInclude;
 import lombok.AllArgsConstructor;
 import lombok.Builder;
 import lombok.Data;

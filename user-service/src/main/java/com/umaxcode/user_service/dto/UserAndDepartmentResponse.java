@@ -1,4 +1,4 @@
-package com.umaxcode.user_service.VO;
+package com.umaxcode.user_service.dto;
 
 import com.umaxcode.user_service.entity.User;
 import lombok.AllArgsConstructor;
@@ -10,7 +10,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 @Builder
-public class ResponseTemplateVO {
+public class UserAndDepartmentResponse {
 
     private User user;
     private Department department;
