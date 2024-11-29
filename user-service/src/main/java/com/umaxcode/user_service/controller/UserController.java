@@ -1,6 +1,6 @@
 package com.umaxcode.user_service.controller;
 
-import com.umaxcode.user_service.VO.ResponseTemplateVO;
+import com.umaxcode.user_service.dto.UserAndDepartmentResponse;
 import com.umaxcode.user_service.entity.User;
 import com.umaxcode.user_service.service.UserService;
 import lombok.RequiredArgsConstructor;
@@ -19,7 +19,7 @@ public class UserController {
     }
 
     @GetMapping("/{id}")
-    public ResponseTemplateVO getUserWithDepartment(@PathVariable("id") Long userId) {
+    public UserAndDepartmentResponse getUserWithDepartment(@PathVariable("id") Long userId) {
         return userService.getUserWithDepartment(userId);
     }
 
